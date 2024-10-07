@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style type=text/css>  
+    body
+    {  
+        height: 125vh;  
+        margin-top: 80px;  
+        padding: 30px;  
+        background-size: cover;  
+        font-family: sans-serif;  
+    }  
+    header {  
+        background-color: red;  
+        position: fixed;  
+        left: 0;  
+        right: 0;  
+        top: 5px;  
+        height: 20px;  
+        display: flex;  
+        align-items: center;  
+        box-shadow: 0 0 25px 0 black;  
+    }  
+    header * {  
+        display: inline;  
+    }  
+    header li {  
+        margin: 20px;  
+    }  
+    header li a {  
+        color: blue;  
+        text-decoration: none;  
+    }  
+</style>   
+</head>
+<body>
+<header>
+    <nav>  
+    <ul>  
+        <li>  
+            <a href="HomePage.html"> Home Page </a>  
+        </li>  
+        <li>  
+            <a href="AboutMe.html"> AboutMe </a>  
+        </li>  
+        <li>  
+            <a href="ContactMe.html"> Contact Page </a>  
+        </li>  
+        <li> 
+            <a href="Resume.html"> My Resume </a>  
+        </li> 
+     </ul>  
+    </nav>  
+</header>
+ <hr> 
+     <article id="contact"> 
+         <h1 class = head1>Contact Me</h1>
+
+         <form action="https://httpbin.org/get" method="get">
+             <p> 
+                 <label for="firstname">First Name</label>
+                 <input type="text" name="firstname" id="firstname">
+             </p>
+             <p>
+                 <label for="Lastname">Last Name</label>
+                 <input type="text" name="Lastname" id="Lastname">
+             </p>
+             <p>
+                 <label for="email">Email</label>
+                 <input type="email" name="email" id="email">
+             </p>
+             <p>
+                 <label for="Subject">Subject</label>
+                 <input type="text" name="Subject" id="Subject">
+             </p>
+             <fieldset>
+                 <label for="Message">Your Message:</label>
+                 <br>
+                 <textarea name="message" id="message" cols="30" rows="10"
+                     placeholder="Type here"></textarea>
+             </fieldset>
+             <button type="submit">Submit</button>
+             
+         </form> 
+     </article>
+
+</body>
+</html>
