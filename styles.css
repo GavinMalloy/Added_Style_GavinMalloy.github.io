@@ -1,3 +1,28 @@
 .head1 {
+  color: rgb(108, 136, 37);
+}
+.head2 {
+  color: rgb(39, 181, 212);
+}
+.para1 {
+  color: chocolate;
+}
+.para2 {
+  color: rgb(85, 107, 48);
+}
+.para3 {
+  color: blueviolet;
+}
+.para4 {
+  color: rgb(219, 73, 180);
+}
+.field1 {
   color: blue;
+  background-color: aqua;
+}
+.ref {
+  color: white;
+}
+.bod {
+  background-color: rgb(163, 201, 214);
 }
